@@ -1,0 +1,33 @@
+2022-08-23 05:45:07.408  INFO 2188 --- [main] com.revature.SpringAopApplication        : Starting SpringAopApplication using Java 1.8.0_211 on Rev-LR0BSMBN with PID 2188 (C:\Users\SophieGavrila\Desktop\spring-week\spring-aop\build\classes\java\main started by SophieGavrila in C:\Users\SophieGavrila\Desktop\spring-week\spring-aop)
+2022-08-23 05:45:07.412  INFO 2188 --- [main] com.revature.SpringAopApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 05:45:08.118  INFO 2188 --- [main] com.revature.SpringAopApplication        : Started SpringAopApplication in 1.156 seconds (JVM running for 1.596)
+2022-08-23 05:46:59.884  INFO 22504 --- [main] com.revature.SpringAopApplication        : Starting SpringAopApplication using Java 1.8.0_211 on Rev-LR0BSMBN with PID 22504 (C:\Users\SophieGavrila\Desktop\spring-week\spring-aop\build\classes\java\main started by SophieGavrila in C:\Users\SophieGavrila\Desktop\spring-week\spring-aop)
+2022-08-23 05:46:59.887  INFO 22504 --- [main] com.revature.SpringAopApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 05:47:00.578  INFO 22504 --- [main] com.revature.SpringAopApplication        : Started SpringAopApplication in 1.124 seconds (JVM running for 1.651)
+2022-08-23 05:47:00.591  INFO 22504 --- [main] eAspect$$EnhancerBySpringCGLIB$$3a0b94ca : Checking for user access...
+2022-08-23 05:47:00.591  INFO 22504 --- [main] eAspect$$EnhancerBySpringCGLIB$$3a0b94ca : Intercepted method call of execution(String com.revature.data.Dao1.retrieveSomething())
+2022-08-23 05:47:00.597  INFO 22504 --- [main] nAspect$$EnhancerBySpringCGLIB$$2c315bfd : The time taken for execution(String com.revature.service.Service1.calculateSomething()) to execute is 14 milliseconds
+2022-08-23 05:47:00.597  INFO 22504 --- [main] rAspect$$EnhancerBySpringCGLIB$$591d8199 : execution(String com.revature.service.Service1.calculateSomething()) returned value null
+2022-08-23 05:47:00.597  INFO 22504 --- [main] rAspect$$EnhancerBySpringCGLIB$$591d8199 : after execution of execution(String com.revature.service.Service1.calculateSomething())
+2022-08-23 05:47:00.597  INFO 22504 --- [main] ication$$EnhancerBySpringCGLIB$$43abe156 : null
+2022-08-23 05:47:00.601  INFO 22504 --- [main] eAspect$$EnhancerBySpringCGLIB$$3a0b94ca : Checking for user access...
+2022-08-23 05:47:00.601  INFO 22504 --- [main] eAspect$$EnhancerBySpringCGLIB$$3a0b94ca : Intercepted method call of execution(String com.revature.data.Dao2.retrieveSomething())
+2022-08-23 05:47:00.604  INFO 22504 --- [main] nAspect$$EnhancerBySpringCGLIB$$2c315bfd : The time taken for execution(String com.revature.service.Service2.calculateSomething()) to execute is 6 milliseconds
+2022-08-23 05:47:00.604  INFO 22504 --- [main] rAspect$$EnhancerBySpringCGLIB$$591d8199 : execution(String com.revature.service.Service2.calculateSomething()) returned value null
+2022-08-23 05:47:00.605  INFO 22504 --- [main] rAspect$$EnhancerBySpringCGLIB$$591d8199 : after execution of execution(String com.revature.service.Service2.calculateSomething())
+2022-08-23 05:47:00.605  INFO 22504 --- [main] ication$$EnhancerBySpringCGLIB$$43abe156 : null
+2022-08-23 05:47:15.967  INFO 24384 --- [main] com.revature.SpringAopApplication        : Starting SpringAopApplication using Java 1.8.0_211 on Rev-LR0BSMBN with PID 24384 (C:\Users\SophieGavrila\Desktop\spring-week\spring-aop\build\classes\java\main started by SophieGavrila in C:\Users\SophieGavrila\Desktop\spring-week\spring-aop)
+2022-08-23 05:47:15.970  INFO 24384 --- [main] com.revature.SpringAopApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-08-23 05:47:16.636  INFO 24384 --- [main] com.revature.SpringAopApplication        : Started SpringAopApplication in 1.065 seconds (JVM running for 1.444)
+2022-08-23 05:47:16.650  INFO 24384 --- [main] eAspect$$EnhancerBySpringCGLIB$$dc7e9466 : Checking for user access...
+2022-08-23 05:47:16.650  INFO 24384 --- [main] eAspect$$EnhancerBySpringCGLIB$$dc7e9466 : Intercepted method call of execution(String com.revature.data.Dao1.retrieveSomething())
+2022-08-23 05:47:16.656  INFO 24384 --- [main] nAspect$$EnhancerBySpringCGLIB$$cea45b99 : The time taken for execution(String com.revature.service.Service1.calculateSomething()) to execute is 15 milliseconds
+2022-08-23 05:47:16.656  INFO 24384 --- [main] rAspect$$EnhancerBySpringCGLIB$$fb908135 : execution(String com.revature.service.Service1.calculateSomething()) returned value null
+2022-08-23 05:47:16.656  INFO 24384 --- [main] rAspect$$EnhancerBySpringCGLIB$$fb908135 : after execution of execution(String com.revature.service.Service1.calculateSomething())
+2022-08-23 05:47:16.656  INFO 24384 --- [main] ication$$EnhancerBySpringCGLIB$$e61ee0f2 : null
+2022-08-23 05:47:16.662  INFO 24384 --- [main] eAspect$$EnhancerBySpringCGLIB$$dc7e9466 : Checking for user access...
+2022-08-23 05:47:16.662  INFO 24384 --- [main] eAspect$$EnhancerBySpringCGLIB$$dc7e9466 : Intercepted method call of execution(String com.revature.data.Dao2.retrieveSomething())
+2022-08-23 05:47:16.666  INFO 24384 --- [main] nAspect$$EnhancerBySpringCGLIB$$cea45b99 : The time taken for execution(String com.revature.service.Service2.calculateSomething()) to execute is 9 milliseconds
+2022-08-23 05:47:16.666  INFO 24384 --- [main] rAspect$$EnhancerBySpringCGLIB$$fb908135 : execution(String com.revature.service.Service2.calculateSomething()) returned value null
+2022-08-23 05:47:16.666  INFO 24384 --- [main] rAspect$$EnhancerBySpringCGLIB$$fb908135 : after execution of execution(String com.revature.service.Service2.calculateSomething())
+2022-08-23 05:47:16.666  INFO 24384 --- [main] ication$$EnhancerBySpringCGLIB$$e61ee0f2 : null
